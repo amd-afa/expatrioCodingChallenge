@@ -16,15 +16,17 @@ class AuthGuard extends AutoRouteGuard {
 
     User? user = await getIt<AppSecureStorage>().getUserData();
 
-    bool isLoggedIn = userAccesToken!.accessToken != null &&
-        userAccesToken.accessTokenExpiresAt!.isAfter(DateTime.now());
+    bool isLoggedIn = (userAccesToken != null)
+        ? userAccesToken.accessToken != null &&
+            userAccesToken.accessTokenExpiresAt!.isAfter(DateTime.now())
+        : false;
 
     bool isAuthenticated = isLoggedIn == true && user != null;
 
     if (isAuthenticated) {
       resolver.next(true);
     } else {
-      router.push(const LoginRoute());
+      router.replace(const LoginRoute());
     }
   }
 }

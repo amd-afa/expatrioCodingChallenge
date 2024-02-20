@@ -67,6 +67,7 @@ class FlushbarHelper {
       animationDuration: const Duration(milliseconds: 500),
       borderWidth: 0,
       routeBlur: 30,
+      maxWidth: double.infinity - 30,
       margin: const EdgeInsets.symmetric(vertical: 100),
       onTap: onTap,
       icon: Container(
@@ -117,6 +118,7 @@ class FlushbarHelper {
       animationDuration: const Duration(milliseconds: 500),
       borderWidth: 0,
       routeBlur: 30,
+      maxWidth: double.infinity - 30,
       margin: const EdgeInsets.symmetric(vertical: 100),
       onTap: onTap,
       icon: Container(
@@ -182,6 +184,7 @@ class FlushbarHelper {
       animationDuration: const Duration(milliseconds: 500),
       routeBlur: 30,
       margin: const EdgeInsets.symmetric(vertical: 100),
+      maxWidth: double.infinity - 30,
       onTap: onTap,
       icon: Container(
         alignment: Alignment.center,

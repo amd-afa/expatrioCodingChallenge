@@ -4,33 +4,33 @@ import 'package:flutter/material.dart';
 const tsHeadLine = TextStyle(
   //fontFamily: '',
   fontWeight: FontWeight.w600,
-  fontSize: 36,
-  color: cLightWhiteColor,
+  fontSize: 32,
+  color: cBlackColor,
   letterSpacing: 1,
 );
 
 const tsBigTitleStyle = TextStyle(
   fontWeight: FontWeight.w600,
-  fontSize: 32,
-  color: cLightWhiteColor,
+  fontSize: 28,
+  color: cBlackColor,
   letterSpacing: .5,
 );
 
 const tsTitleStyle = TextStyle(
   fontWeight: FontWeight.w500,
-  fontSize: 24,
-  color: cLightWhiteColor,
+  fontSize: 22,
+  color: cBlackColor,
   letterSpacing: .5,
 );
 
 const tsSubtitleStyle = TextStyle(
   fontWeight: FontWeight.w400,
-  fontSize: 20,
-  color: cLightWhiteColor,
+  fontSize: 18,
+  color: cBlackColor,
 );
 
 const tsBodyStyle = TextStyle(
   fontWeight: FontWeight.w400,
-  fontSize: 16,
-  color: cLightWhiteColor,
+  fontSize: 14,
+  color: cBlackColor,
 );

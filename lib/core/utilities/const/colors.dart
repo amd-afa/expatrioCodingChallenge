@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const cPrimeGreenColor = Color(0xFF286650);
+const cPrimeGreenColor = Color.fromRGBO(65, 171, 158, 1);
 const cLightWhiteColor = Color(0xFFdbdece);
 const cWhiteColor = Color(0xFFffffff);
 const cBlackColor = Color(0xFF010101);

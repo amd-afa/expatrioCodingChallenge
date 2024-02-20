@@ -14,6 +14,7 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: cWhiteColor,
       body: SafeArea(
           child: Column(
         children: [
