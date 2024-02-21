@@ -14,7 +14,7 @@ class ExpatrioApp extends ConsumerStatefulWidget {
 class _ExpatrioAppState extends ConsumerState<ExpatrioApp> {
   @override
   void initState() {
-    ref.read(userStateProviderProvider.notifier).init();
+    ref.read(userStateProviderProvider.notifier).build();
     super.initState();
   }
 

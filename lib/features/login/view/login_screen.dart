@@ -19,7 +19,6 @@ class LoginScreen extends ConsumerStatefulWidget {
 }
 
 class _DashboardScreenState extends ConsumerState<LoginScreen> {
-  //   SvgPicture.asset('assets/CryingGirl.svg'),
   final emailEditTextController =
       TextEditingController(text: 'tito+bs792@expatrio.com');
   final emailFocusNode = FocusNode();
