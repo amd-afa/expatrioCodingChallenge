@@ -1,15 +1,23 @@
+import 'package:coding_challenge/core/user/state/user_state_provider.dart';
 import 'package:coding_challenge/core/utilities/routers/app_guards.dart';
 import 'package:coding_challenge/core/utilities/routers/app_router.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class ExpatrioApp extends StatefulWidget {
+class ExpatrioApp extends ConsumerStatefulWidget {
   const ExpatrioApp({super.key});
 
   @override
-  State<ExpatrioApp> createState() => _ExpatrioAppState();
+  ConsumerState<ExpatrioApp> createState() => _ExpatrioAppState();
 }
 
-class _ExpatrioAppState extends State<ExpatrioApp> {
+class _ExpatrioAppState extends ConsumerState<ExpatrioApp> {
+  @override
+  void initState() {
+    ref.read(userStateProviderProvider.notifier).build();
+    super.initState();
+  }
+
   final AppRouter _appRouter = AppRouter(
     authGuard: AuthGuard(),
   );

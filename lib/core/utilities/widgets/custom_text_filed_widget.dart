@@ -72,28 +72,28 @@ class CustomTextFieldState extends State<CustomTextField> {
                 color: widget.borderColor,
                 width: 2.0,
               ),
-              borderRadius: const BorderRadius.all(Radius.circular(18)),
+              borderRadius: const BorderRadius.all(Radius.circular(8)),
             ),
             focusedBorder: OutlineInputBorder(
               borderSide: BorderSide(
                 color: widget.borderColor,
                 width: 2.0,
               ),
-              borderRadius: const BorderRadius.all(Radius.circular(18)),
+              borderRadius: const BorderRadius.all(Radius.circular(8)),
             ),
             errorBorder: const OutlineInputBorder(
               borderSide: BorderSide(
                 color: cRedColor,
                 width: 2.0,
               ),
-              borderRadius: BorderRadius.all(Radius.circular(18)),
+              borderRadius: BorderRadius.all(Radius.circular(8)),
             ),
             focusedErrorBorder: const OutlineInputBorder(
               borderSide: BorderSide(
                 color: cRedColor,
                 width: 2.0,
               ),
-              borderRadius: BorderRadius.all(Radius.circular(18)),
+              borderRadius: BorderRadius.all(Radius.circular(8)),
             ),
             hintText: widget.hintText,
             errorText: widget.errorText,

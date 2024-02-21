@@ -67,7 +67,8 @@ class FlushbarHelper {
       animationDuration: const Duration(milliseconds: 500),
       borderWidth: 0,
       routeBlur: 30,
-      margin: const EdgeInsets.symmetric(vertical: 100),
+      maxWidth: MediaQuery.of(context).size.width - 30,
+      margin: const EdgeInsets.symmetric(vertical: 24),
       onTap: onTap,
       icon: Container(
         alignment: Alignment.center,
@@ -117,7 +118,8 @@ class FlushbarHelper {
       animationDuration: const Duration(milliseconds: 500),
       borderWidth: 0,
       routeBlur: 30,
-      margin: const EdgeInsets.symmetric(vertical: 100),
+      maxWidth: MediaQuery.of(context).size.width - 30,
+      margin: const EdgeInsets.symmetric(vertical: 24),
       onTap: onTap,
       icon: Container(
         alignment: Alignment.center,
@@ -181,7 +183,8 @@ class FlushbarHelper {
       shouldIconPulse: false,
       animationDuration: const Duration(milliseconds: 500),
       routeBlur: 30,
-      margin: const EdgeInsets.symmetric(vertical: 100),
+      margin: const EdgeInsets.symmetric(vertical: 24),
+      maxWidth: MediaQuery.of(context).size.width - 30,
       onTap: onTap,
       icon: Container(
         alignment: Alignment.center,

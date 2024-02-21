@@ -188,6 +188,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "dio",
+      "rootUri": "file:///Users/macbookpro/.pub-cache/hosted/pub.dev/dio-5.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "dropdown_search",
       "rootUri": "file:///Users/macbookpro/.pub-cache/hosted/pub.dev/dropdown_search-5.0.6",
       "packageUri": "lib/",
@@ -318,12 +324,6 @@
       "rootUri": "file:///Users/macbookpro/.pub-cache/hosted/pub.dev/graphs-2.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "http",
-      "rootUri": "file:///Users/macbookpro/.pub-cache/hosted/pub.dev/http-0.13.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "http_multi_server",
@@ -710,13 +710,19 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "zoom_tap_animation",
+      "rootUri": "file:///Users/macbookpro/.pub-cache/hosted/pub.dev/zoom_tap_animation-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "coding_challenge",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-02-20T09:56:24.163947Z",
+  "generated": "2024-02-20T12:31:12.504757Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
